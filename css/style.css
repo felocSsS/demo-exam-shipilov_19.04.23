@@ -1,0 +1,44 @@
+@font-face {
+    font-family: my-font;
+    src: url(/fonts/hussar-font/HussarBold-7mRE.otf);
+}
+
+* {
+    font-family: my-font;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+.f50 {
+    font-size: 50px;
+}
+
+#carouselExampleCaptions .carousel-item img {  
+    object-fit: fill;
+    object-position: center;
+    overflow: hidden;
+    height:50vh;
+}
+  
+.msg{
+    border: 2px solid rgba(177, 40, 40, 0.467);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.pad {
+    padding-left: 20%;
+    padding-right: 20%;
+}
